@@ -1,5 +1,17 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
+html, body {
+    height: 100%;
+}
 
-body{
-    background: white;
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.excuses{
+    position: flex;
+    text-align: center;
 }
